@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	input,
+	select {
+		@apply max-w-full rounded p-2 text-black outline-none ring-1 ring-gray placeholder:text-gray-light focus:ring-primary;
+	}
+}
+
+@layer components {
+	.container {
+		@apply mx-auto px-4;
+	}
+}
